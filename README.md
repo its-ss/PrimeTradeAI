@@ -4,7 +4,7 @@
 
 ---
 
-## Live Demo
+## Live
 
 | Service   | URL |
 |-----------|-----|
