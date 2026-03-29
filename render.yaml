@@ -5,7 +5,7 @@ databases:
     user: primetrade
 
 services:
-  # ── Backend Web Service ──────────────────────────────────────────────────────
+  # Backend Web Service
   - type: web
     name: primetrade-backend
     runtime: node
@@ -31,7 +31,7 @@ services:
       - key: FRONTEND_URL
         value: https://primetradeai-1-zegb.onrender.com
 
-  # ── Frontend Static Site ─────────────────────────────────────────────────────
+  # Frontend Static Site
   - type: web
     name: primetrade-frontend
     runtime: static
